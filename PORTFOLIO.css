@@ -1,0 +1,250 @@
+body {
+    font-family:inherit;
+    background-color:black;
+    color: azure;
+    background :url(../../Documents/WhatsApp Image 2025-03-20 at 22.09.27_a46bbe46.jpg);
+    position:right;
+}
+
+h1{
+    font-weight: bold;
+    font-size: small;
+    font-style: normal;
+    
+}
+
+.navbar {
+    padding: 1rem;
+    columns: white;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.first{
+    height: 70vh;
+    display: flex;
+    background-color:#111;
+    margin-left:30px;
+    margin-top:150px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.highlight {
+    color:orange;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color:beige;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color:orange;
+    border-color:orange;
+}
+
+.btn-outline-secondary {
+    border-color:orange;
+    color:orange;
+}
+
+.btn-outline-secondary:hover {
+    background-color:orange;
+    color:black;
+}
+.timeline-item3 {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:black;
+    border: 2px solid orange;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item3:hover {
+    transform: translateY(-5px);
+}
+
+.timeline3-content h4 {
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.timeline3-content h3 {
+    font-size: 1.5rem;
+    color:azure;
+}
+
+.timeline3-content p {
+    font-size: 1rem;
+    color:azure;
+}
+
+@media (max-width: 768px) {
+    .timeline3-content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #111;
+    border: 2px solid orange;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-content h4 {
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.timeline-content h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .timeline-content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.timeline-item2 {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:black;
+    border: 2px solid orange;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item2:hover {
+    transform: translateY(-5px);
+}
+
+.timeline2-content h4 {
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.timeline2-content h3 {
+    font-size: 1.5rem;
+    color:azure;
+}
+
+.timeline2-content p {
+    font-size: 1rem;
+    color:azure;
+}
+
+@media (max-width: 768px) {
+    .timeline2-content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color:;
+}
+
+.service-box {
+    background-color:black;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    color:azure;
+}
+
+.service-box h3 {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color:azure;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    background-color: black;
+}
+
+
+@media (max-width: 800px) {
+    .service-box h3 {
+        font-size: 1.2rem;
+    }
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: orange;
+}
+
+
+.form-control {
+    background-color:black;
+    border: 1px solid orange;
+    color: azure;
+    padding: 12px;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color:orange;
+    outline: none;
+    box-shadow: 0 0 10px:orange;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+
+.btn-primary {
+    background-color:orange;
+    border-color:orange;
+    color:black;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+    border-color:orange;
+}
